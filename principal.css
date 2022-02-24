@@ -1,0 +1,252 @@
+.menu {
+    position: fixed;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.img-logo{
+    width: 110px;
+    height: 110px;
+    margin-left: 150px;
+}
+
+img.ban {
+    margin-bottom: -3px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0; 
+}
+
+nav a {
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav li a:hover {
+    color: #0d7360;
+    transition: 400ms;
+}
+
+ul {
+    margin-right: 180px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.link:hover {
+    cursor:pointer;
+}
+
+.title-quem-somos {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 60px;
+
+}
+
+.caixa-quem-somos {
+    width: 100%;
+    display: flex;
+    background-color: black;}
+
+.img-quem-somos {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.imagem-quem-somos {
+    height: 300px;
+    margin-left: 160px;
+    text-align: center;
+   /* margin-top: 60px;
+    margin-bottom: 60px; */
+}
+
+.texto-quem-somos {
+    width: 50%;
+}
+
+.texto-quem-somos p {
+    max-width: 57ch;
+    line-height: 1.5em;
+    margin-top: -6px;
+    color: white;
+}
+
+.titulo-bolos {
+    font-size: 45px;
+    text-align: center;
+    color: #0d7360;
+    margin-top: 40px;
+
+}
+
+.lista-bolos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.lista-bolos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    padding: 30px 15px;
+    margin: 0 1.5%;
+    border: 3px black solid;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.lista-bolos li:hover {
+    border-color: #0d7360;
+    transition: 200ms;
+}
+
+.lista-bolos h3 {
+    color: #0d7360;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lista-bolos li:hover h3 {
+    font-size: 30px;
+    color: black;
+    transition: 500ms;
+}
+
+.bolo-descricao {
+    color: #0d7360;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.lista-bolos li:hover .bolo-descricao {
+    color: black;
+    transition: 500ms;
+}
+
+.bolo-preco {
+    color: #0d7360;
+    font-size: 30px;
+}
+
+.lista-bolos li:hover .bolo-preco {
+    color: black;
+    transition: 500ms;
+}
+
+.wpp {
+    position: relative;
+    margin: 0 auto;
+}
+
+.icon {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    margin: -80px 15px auto auto; 
+}
+
+/* DOCES ABAIXO */
+
+.caixa-doces {
+    background-color: black;
+    padding: 55px;
+}
+
+.titulo-doces {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    top: 20px;
+
+}
+
+.lista-doces {
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.lista-doces li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    padding: 30px 15px;
+    margin: 0 1.5%;
+    border: 3px white solid;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.lista-doces li:hover {
+    border-color: #0d7360;
+    transition: 200ms;
+}
+
+.lista-doces h3 {
+    color: #0d7360;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lista-doces li:hover h3 {
+    font-size: 30px;
+    color: white;
+    transition: 500ms;
+}
+
+.doces-descricao {
+    color: #0d7360;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.lista-doces li:hover .doces-descricao {
+    color: white;
+    transition: 500ms;
+}
+
+.doces-preco {
+    color: #0d7360;
+    font-size: 30px;
+}
+
+.lista-doces li:hover .doces-preco {
+    color: white;
+    transition: 500ms;
+}
+
+footer {
+    text-align: center;
+    background-color:white;
+    padding: 5px;
+}
+
+footer img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

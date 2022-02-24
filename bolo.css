@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.img-logo{
+    width: 110px;
+    height: 110px;
+    margin-left: 150px;
+}
+
+img.ban {
+    margin-bottom: -3px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0; 
+}
+
+nav a {
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav li a:hover {
+    color: #0d7360;
+    transition: 400ms;
+}
+
+ul {
+    margin-right: 180px;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.link:hover {
+    cursor:pointer;
+}
+
+.titulo-bolos {
+    font-size: 45px;
+    text-align:center;
+    color: #0d7360;
+    margin: 80px 0;
+}
+
+.lista-bolos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 0px 0;
+}
+
+.lista-bolos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    padding: 30px 15px;
+    margin: 15px 1.5%;
+    border: 3px white solid;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.lista-bolos li:hover {
+    border-color: #0d7360;
+    transition: 200ms;
+}
+
+.lista-bolos h3 {
+    color: #0d7360;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lista-bolos li:hover h3 {
+    font-size: 30px;
+    color: white;
+    transition: 500ms;
+}
+
+.bolo-preco {
+    color: #0d7360;
+    font-size: 30px;
+}
+
+.lista-bolos li:hover .bolo-preco {
+    color: white;
+    transition: 500ms;
+}
+
+.icon {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    right: 0;
+    margin: -50px 15px 10px 1px;
+}
+
+footer {
+    text-align: center;
+    background-color:white;
+    padding: 5px;
+}
+
+footer img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link href="reset.css" rel="stylesheet">
+        <link href="contato.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <h1><img class="img-logo" src="Images/Pires confeitaria.png">  </h1>
+
+                <nav>
+                    <ul>
+                        <li><a class="link" href="Home.html">Home</li>
+                        <li><a class="link" href="Bolos.html">Bolos</a></li>
+                        <li><a class="link" href="Doces.html">Doces</a></li>
+                        <li><a class="link" href="Contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>  
+            
+            <h2 class="titulo-h2"> Entre em contato conosco</h2>
+
+            <form class="form-inline">
+                <label for="nome-completo"></label>
+                <input type="text" id="nome-completo" placeholder="Nome Completo" required/>
+                
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="E-mail" required/>
+
+                <label for="telefone"></label>
+                <input type="tel" id="telefone" placeholder="Telefone" required/>
+
+                <label for="data-pedido">Data do pedido</label>
+                <input type="date" id="data-pedido" required/>
+
+                <label for="mensagem"></label>
+                <textarea maxlength="512" cols="64" rows="10" placeholder="Deixe sua mensagem aqui"></textarea>
+
+            </form>
+        </main>
+        
+    </body>
+</html>
